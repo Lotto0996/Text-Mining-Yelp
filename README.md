@@ -17,7 +17,8 @@ Visualizing the word clouds give valuable insights
 about region, culture as well as its correlation to
 seasons and ratings.
 ## Dataset
-Round 9 Of The Yelp Dataset Challenge - [link](https://www.yelp.com/dataset_challenge/dataset "Yelp Data Challenge")
+Round 9 Of The Yelp Dataset Challenge - [link](https://www.yelp.com/dataset_challenge/dataset "Yelp Data Challenge")  
+Below is the preview of relevant data files.
 
 ### yelp_academic_dataset_business.json
 <pre>
@@ -40,3 +41,20 @@ Round 9 Of The Yelp Dataset Challenge - [link](https://www.yelp.com/dataset_chal
     "type": "business"
 }
 </pre>
+### yelp_academic_dataset_review.json
+<pre>
+{
+    "review_id":"encrypted review id",
+    "user_id":"encrypted user id",
+    "business_id":"encrypted business id",
+    "stars":star rating, rounded to half-stars,
+    "date":"date formatted like 2009-12-19",
+    "text":"review text",
+    "useful":number of useful votes received,
+    "funny":number of funny votes received,
+    "cool": number of cool review votes received,
+    "type": "review"
+}
+</pre>
+
+## Tools used
