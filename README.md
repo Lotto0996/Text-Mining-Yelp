@@ -58,3 +58,7 @@ Below is the preview of relevant data files.
 </pre>
 
 ## Tools used
+
+* Numpy, Scipy, Pandas
+* Sklearn, NLTK
+* Matplotlib, [WordCloud](https://github.com/amueller/word_cloud "amueller's github")
