@@ -16,3 +16,27 @@ different time periods (seasons or years).
 Visualizing the word clouds give valuable insights
 about region, culture as well as its correlation to
 seasons and ratings.
+## Dataset
+Round 9 Of The Yelp Dataset Challenge - [link](https://www.yelp.com/dataset_challenge/dataset "Yelp Data Challenge")
+
+### yelp_academic_dataset_business.json
+<pre>
+{
+    "business_id":"encrypted business id",
+    "name":"business name",
+    "neighborhood":"hood name",
+    "address":"full address",
+    "city":"city",
+    "state":"state -- if applicable --",
+    "postal code":"postal code",
+    "latitude":latitude,
+    "longitude":longitude,
+    "stars":star rating, rounded to half-stars,
+    "review_count":number of reviews,
+    "is_open":0/1 (closed/open),
+    "attributes":["an array of strings: each array element is an attribute"],
+    "categories":["an array of strings of business categories"],
+    "hours":["an array of strings of business hours"],
+    "type": "business"
+}
+</pre>
